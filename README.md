@@ -43,13 +43,11 @@ Our method demonstrates substantial mAP improvements over existing approaches on
 ---
 ## Results
 We compare not just the accuracy of our methodology, but also compare it's inference speed given it is a trade-off.
-<p align="left">
+<p align="center">
   <img src="resources/Results1.png" alt="Results1" width="1000"/>
 </p>
-<p align="right">
-  <img src="resources/results2.png" alt="Results2" width="300" />
-</p>
 <p align="center">
+  <img src="resources/results2.png" alt="Results2" width="300" />
   <img src="resources/speed-accuracy-tradeoff.png" alt="SpeedAccuracyTradeoff" width="300" />
 </p>
 
