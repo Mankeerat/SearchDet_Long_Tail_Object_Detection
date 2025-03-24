@@ -1,4 +1,4 @@
-# 🔥 SearchDet: Training-Free Long Tail Object Detection via Web-Image Retrieval 🔥
+# 🔥 SearchDet: Training-Free Long Tail Object Detection via Web-Image Retrieval (CVPR 2025!) 🔥
 By [Mankeerat Sidhu](https://mankeerat.github.io/), [Hetarth Chopra](https://www.linkedin.com/in/hetarth-chopra/), Ansel Blume, [Jeonghwan Kim](https://wjdghks950.github.io/), [Revanth Gangi Reddy](https://gangiswag.github.io/) and [Heng Ji](https://blender.cs.illinois.edu/hengji.html)
 
 
