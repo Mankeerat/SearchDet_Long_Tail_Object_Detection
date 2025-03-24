@@ -4,9 +4,11 @@ This repository contains the official code for SearchDet, a training-free framew
 ---
 
 <figure>
-  <img src="Architecture_of_SearchDet.png" alt="">
+  <img src="resources/Architecture_of_SearchDet.png" alt="">
   <figcaption>The Architecture Diagram of our process. We compare the adjusted embeddings, produced by the DINOv2 model, of the positive and negative support images, with the relevant masks extracted using the SAM model to provide an initial estimate of our segmentation BBox. We again use DINOv2 for generating pixel-precise heatmaps which provide another estimate for the segmentation. We combine both these estimates using a binarized overlap to get the final segmentation mask. </figcaption>
 </figure>
+
+
 
 ## SearchDet is designed to:
 
