@@ -45,5 +45,8 @@ Our method demonstrates substantial mAP improvements over existing approaches on
 
 <p align="center">
   <img src="resources/Results1.png" alt="Results1" width="500" />
-  <img src="resources/results2.png" alt="Results2" width="500" />
 </p>
+<p align="center">
+  <img src="resources/results2.png" alt="Results2" width="300" />
+</p>
+
