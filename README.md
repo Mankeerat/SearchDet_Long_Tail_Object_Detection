@@ -1,4 +1,5 @@
 # 🔥 SearchDet: Training-Free Long Tail Object Detection via Web-Image Retrieval 🔥
+By [Mankeerat Sidhu](https://mankeerat.github.io/), [Hetarth Chopra](https://www.linkedin.com/in/hetarth-chopra/), Ansel Blume, [Jeonghwan Kim](https://wjdghks950.github.io/), [Revanth Gangi Reddy](https://gangiswag.github.io/) 
 This repository contains the official code for SearchDet, a training-free framework for long-tail, open-vocabulary object detection. SearchDet leverages web-retrieved positive and negative support images to dynamically generate query embeddings for precise object localization—all without additional training.
 
 ---
