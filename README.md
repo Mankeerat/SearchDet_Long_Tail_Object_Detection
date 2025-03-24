@@ -37,3 +37,11 @@ Our method demonstrates substantial mAP improvements over existing approaches on
 </p>
 
 **Figure 3.** Illustration of our method providing more precise masks after including the negative support image samples. The negative query (e.g., “waves”) helps avoid irrelevant areas and focus on the intended concept (e.g., “surfboard”).
+
+---
+## Results - 
+
+<p align="center">
+  <img src="resources/Results1.png" alt="Results1" width="500" />
+  <img src="resources/Results2.png" alt="Results2" width="500" />
+</p>
