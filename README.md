@@ -41,12 +41,16 @@ Our method demonstrates substantial mAP improvements over existing approaches on
 **Figure 3.** Illustration of our method providing more precise masks after including the negative support image samples. The negative query (e.g., “waves”) helps avoid irrelevant areas and focus on the intended concept (e.g., “surfboard”).
 
 ---
-## Results - 
-
-<p align="center">
-  <img src="resources/Results1.png" alt="Results1" width="500" />
+## Results
+We compare not just the accuracy of our methodology, but also compare it's inference speed given it is a trade-off.
+<p align="left">
+  <img src="resources/Results1.png" alt="Results1" width="1000"/>
 </p>
-<p align="center">
+<p align="right">
   <img src="resources/results2.png" alt="Results2" width="300" />
 </p>
+<p align="center">
+  <img src="resources/speed-accuracy-tradeoff.png" alt="SpeedAccuracyTradeoff" width="300" />
+</p>
+
 
