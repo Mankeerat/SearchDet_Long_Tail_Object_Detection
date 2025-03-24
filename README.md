@@ -48,7 +48,7 @@ We compare not just the accuracy of our methodology, but also compare OWOD model
 </p>
 <p align="center">
   <img src="resources/results2.png" alt="Results2" width="300" />
-  <img src="resources/speed-accuracy-tradeoff.png" alt="SpeedAccuracyTradeoff" width="500" />
+  <img src="resources/speed-accuracy-tradeoff.png" alt="SpeedAccuracyTradeoff" width="400" />
 </p>
 
 
