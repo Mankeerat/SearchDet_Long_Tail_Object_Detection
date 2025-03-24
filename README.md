@@ -3,7 +3,7 @@ This repository contains the official code for SearchDet, a training-free framew
 
 ---
 
-SearchDet is designed to:
+## SearchDet is designed to:
 
 - ✅ Enhance Open-Vocabulary Detection: Improve detection performance on long-tail classes by retrieving and leveraging web images.
 - ✅ Operate Training-Free: Eliminate the need for costly fine-tuning and continual pre-training by computing query embeddings at inference time.
@@ -13,7 +13,7 @@ Our method demonstrates substantial mAP improvements over existing approaches on
 
 ---
 
-Key Features
+## Key Features
 - Web-Based Exemplars: Retrieve positive and negative support images from the web to create dynamic, context-sensitive query embeddings.
 - Attention-Based Query Generation: Enhance detection by weighting support images based on cosine similarity with the input query.
 - Robust Region Proposals: Use SAM to generate high-quality segmentation proposals that are refined via similarity heatmaps.
