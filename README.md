@@ -29,19 +29,11 @@ Our method demonstrates substantial mAP improvements over existing approaches on
 - Scalable Inference: Achieve strong performance with just a few support images—ideal for long-tailed object detection scenarios.
 
 ---
-## Reason to use Positive and Negative Exemplars: 
-<div style="text-align: center;">
-  
-  <figure style="display: inline-block; margin: 0 1em;">
-    <img src="resources/put2.png" alt="(a) Without negative support image samples" width="300">
-    <figcaption>(a) Without including negative support image samples</figcaption>
-  </figure>
-  
-  <figure style="display: inline-block; margin: 0 1em;">
-    <img src="resources/put1.png" alt="(b) After including negative support image samples" width="300">
-    <figcaption>(b) After including negative support image samples</figcaption>
-  </figure>
+## Reason to use Positive and Negative Exemplars
 
-</div>
+<p align="center">
+  <img src="resources/put2.png" alt="(a) Without negative support image samples" width="300" />
+  <img src="resources/put1.png" alt="(b) After including negative support image samples" width="300" />
+</p>
 
-**Figure 3.** Illustration of our method providing more precise masks after including the negative support image samples. The negative query (here “waves”) helps the model avoid irrelevant areas and focus on the intended concept (here “surfboard”).
+**Figure 3.** Illustration of our method providing more precise masks after including the negative support image samples. The negative query (e.g., “waves”) helps avoid irrelevant areas and focus on the intended concept (e.g., “surfboard”).
