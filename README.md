@@ -87,4 +87,8 @@ You need to run ```pip install -r requirements.txt``` in your virtual environmen
 
 ---
 ### Usage
-The entire design philosophy of SearchDet is that any developer can replace components of our system, according to their desired needs. If more precision is needed - one can use a bigger version of SAM (like SemanticSAM etc.) and if more inference speed is needed one can use a faster implementation of SAM (like FastSAM or PyTorch Implementation of SAM).   
+The entire design philosophy of SearchDet is that any developer can replace components of our system, according to their desired needs. 
+- If more precision is needed in the mask - one can use a bigger version of SAM (like SemanticSAM etc.) and if more inference speed is needed one can use a faster implementation of SAM (like FastSAM or PyTorch Implementation of SAM).
+- If more precision is needed in the retrieval quality of the mask - one can use other alternatives suitable for your use-case such as CLIP etc. 
+- It is encouraged that one should experiment if their use-case needs the negative exemplar images, and hence modifying ```adjust_embedding``` (line 167) in ```mask_with_search.py``` is encouraged. Users can test with and without negative images, whichever scenario suits them the best.
+- The web crawler that we use is a naive implementation using Selenium without parallelization. It is encouraged to spin multiple threads for doing this.
