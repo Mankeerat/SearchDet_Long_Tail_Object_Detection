@@ -85,3 +85,6 @@ Here are some images as well that present SearchDet's performance on the benchma
 ## Installation
 You need to run ```pip install -r requirements.txt``` in your virtual environment. If you plan to use GPU for running this code kindly first install ```pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu118``` depending on your CUDA version, comment out torch and torchvision in the requirements, and then run ```pip install -r requirements.txt```.
 
+---
+### Usage
+The entire design philosophy of SearchDet is that any developer can replace components of our system, according to their desired needs. If more precision is needed - one can use a bigger version of SAM (like SemanticSAM etc.) and if more inference speed is needed one can use a faster implementation of SAM (like FastSAM or PyTorch Implementation of SAM).   
