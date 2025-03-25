@@ -53,15 +53,6 @@ We compare not just the accuracy of our methodology, but also compare OWOD model
 
 Here are some images as well that present SearchDet's performance on the benchmarks
 
-<p align="center">
-  <img src="resources/image_480_FOR_PAPER.png" alt="Phone" width="300" />
-  <img src="resources/mountain_Dew_example.jpg" alt="Mountain Dew" width="400" />
-  <img src="resources/image_5.png" alt="Window" width="400" />
-  <img src="resources/image_7.png" alt="Vase" width="400" />
-  <img src="resources/thermal_dog.jpg" alt="Dog" width="400" />
-  <img src="resources/c_class.png" alt="C-Class" width="400"/>
-</p>
-
 
 <p align="center">
   <table style="margin: auto; border-collapse: collapse;">
