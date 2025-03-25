@@ -42,7 +42,7 @@ Our method demonstrates substantial mAP improvements over existing approaches on
 
 ---
 ## Results
-We compare not just the accuracy of our methodology, but also compare OWOD models' performance vs. inference time on LVIS. SearchDet with caching has comparable speed to GroundingDINO and is faster than T-Rex, two state-of-the-art methods.
+We compare not just the accuracy of our methodology, but also compare OWOD models' performance vs. inference time on LVIS. SearchDet with caching has a comparable speed to GroundingDINO and is faster than T-Rex, two state-of-the-art methods.
 <p align="center">
   <img src="resources/Results1.png" alt="Results1" width="1000"/>
 </p>
@@ -51,4 +51,12 @@ We compare not just the accuracy of our methodology, but also compare OWOD model
   <img src="resources/speed-accuracy-tradeoff.png" alt="SpeedAccuracyTradeoff" width="400" />
 </p>
 
+Here are some images as well that present SearchDet's performance on the benchmarks
 
+<p align="center">
+  <img src="resources/image_480_FOR_PAPER.png" alt="Phone" width="300" />
+  <img src="resources/mountain_Dew_example.jpg" alt="Mountain Dew" width="400" />
+  <img src="resources/image_5.png" alt="Window" width="400" />
+  <img src="resources/image_7.png" alt="Vase" width="400" />
+  <img src="resources/thermal_dog.png" alt="Dog" width="400" />
+</p>
