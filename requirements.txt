@@ -1,7 +1,7 @@
 numpy
 matplotlib
 pillow
-torch
+torch==2.4
 torchvision
 einops
 scikit-learn
@@ -11,3 +11,8 @@ opencv-python
 selenium
 requests
 langchain
+git+https://github.com/facebookresearch/segment-anything.git
+pycocotools
+onnxruntime
+onnx
+jupyter
