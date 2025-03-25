@@ -62,6 +62,34 @@ Here are some images as well that present SearchDet's performance on the benchma
   <img src="resources/c_class.png" alt="C-Class" width="400"/>
 </p>
 
+
+<p align="center">
+  <table style="margin: auto; border-collapse: collapse;">
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 5px;">
+        <img src="resources/image_480_FOR_PAPER.png" alt="Phone" width="300" />
+      </td>
+      <td style="border: 1px solid #ccc; padding: 5px;">
+        <img src="resources/mountain_Dew_example.jpg" alt="Mountain Dew" width="400" />
+      </td>
+      <td style="border: 1px solid #ccc; padding: 5px;">
+        <img src="resources/image_5.png" alt="Window" width="400" />
+      </td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 5px;">
+        <img src="resources/image_7.png" alt="Vase" width="400" />
+      </td>
+      <td style="border: 1px solid #ccc; padding: 5px;">
+        <img src="resources/thermal_dog.jpg" alt="Dog" width="400" />
+      </td>
+      <td style="border: 1px solid #ccc; padding: 5px;">
+        <img src="resources/c_class.png" alt="C-Class" width="400" />
+      </td>
+    </tr>
+  </table>
+</p>
+
 ---
 ## Installation
 You need to run ```pip install -r requirements.txt``` in your virtual environment. If you plan to use GPU for running this code kindly first install ```pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu118``` depending on your CUDA version, comment out torch and torchvision in the requirements, and then run ```pip install -r requirements.txt```.
