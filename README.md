@@ -61,3 +61,8 @@ Here are some images as well that present SearchDet's performance on the benchma
   <img src="resources/thermal_dog.jpg" alt="Dog" width="400" />
   <img src="resources/c_class.png" alt="C-Class" width="400"/>
 </p>
+
+---
+## Installation
+You need to run ```pip install -r requirements.txt``` in your virtual environment. If you plan to use GPU for running this code kindly first install ```pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu118``` depending on your CUDA version, comment out torch and torchvision in the requirements, and then run ```pip install -r requirements.txt```.
+
