@@ -1,0 +1,13 @@
+numpy
+matplotlib
+pillow
+torch
+torchvision
+einops
+scikit-learn
+coloredlogs
+faiss-cpu
+opencv-python
+selenium
+requests
+langchain
